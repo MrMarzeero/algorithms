@@ -1,2 +1,4 @@
 # algorithms
-Some cool algorithms and mine implementation
+
+There are:
+- Longest Increasing Subsequence (LIS)
