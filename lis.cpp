@@ -33,8 +33,6 @@ int32_t main() {
         dp[p] = a[i];
     }
 
-
-
     int ans = 0;
     for (int i = 1; i <= n; ++i) 
         if(dp[i] != inf) ans = i;
