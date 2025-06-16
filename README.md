@@ -1,4 +1,4 @@
-# algorithms
+# Cp-Algorithms 
 
 There are:
 - Longest Increasing Subsequence (LIS)
