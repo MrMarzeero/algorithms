@@ -1,4 +1,5 @@
 //Árvore Geradora Mínima (MST)
+//Kruskal Algorithm
 //Otávio Pinheiro
 #include <bits/stdc++.h>
 using namespace std;
