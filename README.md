@@ -3,12 +3,12 @@
 There are:
 
 Data Structures: 
-- Segment Tree
+- Segment Tree (segment_tree.cpp)
 
 DP:
-- Longest Increasing Subsequence (LIS)
-- Longest Common Subsequence (LCS)
+- Longest Increasing Subsequence (LIS) (lis.cpp)
+- Longest Common Subsequence (LCS) (lcs.cpp)
 
 Graph Algorithms:
 - Minimum Spanning Tree (MST)
-  - Kruskal Algorithm
+  - Kruskal Algorithm (kruskal_mst.cpp)
