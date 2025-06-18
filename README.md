@@ -4,7 +4,7 @@ There are:
 
 Data Structures: 
 - Segment Tree (segment_tree.cpp)
-
+- Lazy Segment Tree (lazy_segtree.cpp)
 DP:
 - Longest Increasing Subsequence (LIS) (lis.cpp)
 - Longest Common Subsequence (LCS) (lcs.cpp)
