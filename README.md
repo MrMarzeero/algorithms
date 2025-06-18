@@ -3,6 +3,7 @@
 There are:
 
 Data Structures: 
+- Binary Indexed Tree (BIT) (bit.cpp)
 - Segment Tree (segment_tree.cpp)
 - Lazy Segment Tree (lazy_segtree.cpp)
 
