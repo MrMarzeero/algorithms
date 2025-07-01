@@ -13,4 +13,11 @@ DP:
 
 Graph Algorithms:
 - Minimum Spanning Tree (MST)
-  - Kruskal Algorithm (kruskal_mst.cpp)
+- Kruskal Algorithm (kruskal_mst.cpp)
+ 
+Number Theory Algorithms:
+- Fast Exponentiation (binpow.cpp)
+- Fast Multiplication
+- Euclidean Algorithm
+- Extended Euclidean Algorithm
+- Modular Inverse
