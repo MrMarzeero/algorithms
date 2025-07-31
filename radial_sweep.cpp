@@ -2,23 +2,25 @@
 using namespace std;
 
 #define int long long
-#define pii pair<int,int>
 
-vector<pii> points;
+struct point {
+    int x, y;
+    int half() {
+        return (y < 0 || y == 0 && x < 0);
+    }
+};
 
-int cross(pii A, pii B) {return A.first*B.second - B.first*A.second;}
-int calc(pii A) {return A.first*A.first+A.second*A.second; }
+vector<point> points;
 
-bool regionValue(pii A) {
-    if(A.second > 0 || (A.second == 0 && A.first > 0)) 
-        return 0;
-    return 1;
-}
+int cross(point A, point B) { return A.x*B.y - A.y*B.x; }
 
-bool comp(pii A, pii B) {
-    if(regionValue(A) != regionValue(B))
-        return regionValue(A)<regionValue(B);
-    if(cross(A, B) != 0)
-        return (cross(A,B)>0);
-    return calc(A)<calc(B);
+bool comp(point A, point B) {
+    if(A.half() != B.half()) 
+        return A.half()<B.half();
+
+    if(cross(A, B) != 0) 
+        return cross(A,B)>0;
+    int dA = A.x*A.x + A.y*A.y;
+    int dB = B.x*B.x + B.y*B.y;
+    return dA<dB;
 }
