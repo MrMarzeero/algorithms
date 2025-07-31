@@ -24,5 +24,6 @@ Number Theory Algorithms:
 
 Geometry Algorithms:
 - Monotone Chain (Convex Hull) (monotone_chain.cpp)
+- Grahan-Scan (Convex Hull) (grahan_scan.cpp)
 - Closest Pair of Points (nlogn) (closet_pair.cpp)
 - Radial Sweep (radial_sweep.cpp)
